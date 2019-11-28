@@ -1,7 +1,10 @@
-**Z-score Pruning** 
+**Z-score Pruning**
 
 GITHUB Code: https://github.com/neuromol/Z-prune
+
+
 To account for the SE, summary statistics are converted into Z-scores which is then used in the pruning process (high absolute Z-score in a given correlated pair ) 
+
 
 This code produces a file like; 
 *SNP Pval abs_Z OR SE beta Z
