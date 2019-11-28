@@ -26,6 +26,7 @@ python_plink.sif (singularity image with all the python packages etc stored) - w
 Script INFO: 
 > singularity exec ~/python_plink.sif python zprune.py
 
+'''
 #########################################################
 Pruning based off Z-scores
 #########################################################
@@ -33,8 +34,10 @@ Pruning based off Z-scores
 usage: zprune.py [-h] -i INPUT -d LD_FILE [-o OUTPUT] [-r2 RSQUARED]
 [-t THREADS]
 zprune.py: error: the following arguments are required: -i/--input, -d/--LD_file
+'''
 
-NOTE: lowest R2 value can be 0.2
+
+**NOTE: lowest R2 value can be 0.2 ** 
 
 
 **TO DO** 
